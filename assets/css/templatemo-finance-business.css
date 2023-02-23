@@ -386,17 +386,8 @@ header .navbar {
 	height:95vh;
 }
 
-.Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/img1.png);
-}
 
-.Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
-}
 
-.Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
-}
 
 .Modern-Slider .NextArrow{
   position:absolute;
