@@ -523,7 +523,7 @@
   width: 100%;
   display: table;
   background-color: #002236;
-  background: url('../../assets/images/pat.svg')#fff;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg')#fff;
  
   background-size: cover;
   background-attachment:fixed;
