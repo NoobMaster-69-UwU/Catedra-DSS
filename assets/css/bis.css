@@ -251,6 +251,7 @@ body {
       position: fixed;
       background-color: #fff!important;
       box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+       height: 130px;
   }
   .background-header .navbar-brand h2 {
       color: #1e1e1e!important;
