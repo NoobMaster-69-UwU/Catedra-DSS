@@ -387,7 +387,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),url(../images/img1.png);
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../images/img1.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
