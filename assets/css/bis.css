@@ -385,7 +385,7 @@ body {
   }
   .navbar .navbar-toggler-icon:after {
       content: '\f0c9';
-      color: #a4c639;
+      color: #fdda24;
       font-size: 18px;
       line-height: 26px;
       font-family: 'FontAwesome';
@@ -669,7 +669,7 @@ body {
   
   .fun-facts em {
       font-style: normal;
-      color: #a4c639;
+      color: #fdda24;
   }
   
   .fun-facts p {
@@ -690,7 +690,7 @@ body {
   
   .count-digit {
       margin: 5px 0px;
-      color: #a4c639;
+      color: #fdda24;
       font-weight: 700;
       font-size: 36px;
   }
@@ -748,7 +748,7 @@ body {
   
   .more-info .right-content em {
       font-style: normal;
-      color: #a4c639;
+      color: #fdda24;
   }
   
   .more-info .right-content p {
