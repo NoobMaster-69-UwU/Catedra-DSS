@@ -987,7 +987,7 @@ body {
   }
   
   footer ul.social-icons li a:hover {
-      background-color: #a4c639;
+      background-color: #ffbb00;
   }
   
   footer ul.menu-list li {
@@ -1005,7 +1005,7 @@ body {
   }
   
   footer ul.menu-list li a:hover {
-      color: #a4c639;
+      color: #ffbb00;
   }
   
   footer .contact-form input {
