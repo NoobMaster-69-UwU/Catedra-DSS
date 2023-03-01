@@ -167,7 +167,7 @@ body{margin:0;padding:0;width:100%;}
 
 .expsoftware{
 	display: table-cell;
-	margin: auto;
+	padding-left: 15px;
 	width: 440px;
 	height: auto;
 }
@@ -177,12 +177,16 @@ body{margin:0;padding:0;width:100%;}
 	display: inline-block;
 	margin: auto;
 	float: left;
-	width:120px;
-	height:120px;
+	width:110px;
+	height:150px;
 	line-height:1.2;
 	margin: 20px 0px 0px 0px;
-	border-radius: 100%;
+	border-radius: 12px;
 	background-color: #fdda24;
+}
+
+.software lord-icon{
+    padding-top: 10px;
 }
 
 .software:nth-child(2){
@@ -1085,7 +1089,8 @@ body {
   
   /* Services */
   
-  .services {
+  .services .row{
+    padding-bottom: 5vw;
   }
   
   .service-item img {
@@ -1175,225 +1180,6 @@ body {
   
   
   
-  /* More Info */
-  
-  .more-info {
-      margin-top: 140px;
-  }
-  
-  .more-info .left-image img {
-      width: 100%;
-      overflow: hidden;
-  }
-  
-  .more-info .more-info-content {
-      background-color: #f7f7f7;
-  }
-  
-  .about-info .more-info-content {
-      background-color: transparent;
-  }
-  
-  .about-info .right-content {
-      padding: 0px!important;
-      margin-right: 30px;
-  }
-  
-  .more-info .right-content {
-      padding: 45px 45px 45px 30px;
-  }
-  
-  .more-info .right-content span {
-      text-transform: uppercase;
-      font-size: 15px;
-      color: #666;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-      display: block;
-  }
-  
-  .more-info .right-content h2 {
-      font-size: 36px;
-      font-weight: 600;
-      margin-bottom: 35px;
-  }
-  
-  .more-info .right-content em {
-      font-style: normal;
-      color: #fdda24;
-  }
-  
-  .more-info .right-content p {
-      margin-bottom: 30px;
-  }
-  
-  
-  /* Testimonials Style */
-  
-  .about-testimonials {
-      margin-top: 0px!important;
-  }
-  
-  .testimonials {
-      margin-top: 140px;
-      background-color: #f7f7f7;
-      padding: 140px 0px;
-  }
-  .testimonial-item .inner-content {
-      text-align: center;
-      background-color: #fff;	
-      padding: 30px;
-      border-radius: 5px;
-  }
-  .testimonial-item p {
-      font-size: 14px;
-      font-weight: 400;
-  }
-  .testimonial-item h4 {
-      font-size: 19px;
-      font-weight: 700;
-      color: #1e1e1e;
-      letter-spacing: 0.5px;
-      margin-bottom: 0px;
-  }
-  .testimonial-item span {
-      display: inline-block;
-      margin-top: 8px;
-      font-weight: 600;
-      font-size: 14px;
-      color: #a4c639;
-  }
-  .testimonial-item img {
-      max-width: 60px;
-      border-radius: 50%;
-      margin: 25px auto 0px auto;
-  }
-  
-  
-  
-  
-  /* Call Back Style */
-  
-  .callback-services {
-      border-top: 1px solid #eee;
-      padding-top: 140px;
-  }
-  
-  .contact-us {
-      background-color: #f7f7f7;
-      padding: 140px 0px;
-  }
-  
-  .contact-us .contact-form {
-      background-color: transparent!important;
-      padding: 0!important;
-  }
-  
-  .callback-form {
-      margin-top: 140px;
-  }
-  
-  .callback-form .contact-form {
-      background-color: #a4c639;
-      padding: 60px;
-      border-radius: 5px;
-      text-align: center;
-  }
-  
-  .callback-form .contact-form input {
-      border-radius: 20px;
-      height: 40px;
-      line-height: 40px;
-      display: inline-block;
-      padding: 0px 15px;
-      color: #6a6a6a;
-      font-size: 13px;
-      text-transform: none;
-      box-shadow: none;
-      border: none;
-      margin-bottom: 35px;
-  }
-  
-  .callback-form .contact-form input:focus {
-      outline: none;
-      box-shadow: none;
-      border: none;
-  }
-  
-  .callback-form .contact-form textarea {
-      border-radius: 20px;
-      height: 120px;
-      max-height: 200px;
-      min-height: 120px;
-      display: inline-block;
-      padding: 15px;
-      color: #6a6a6a;
-      font-size: 13px;
-      text-transform: none;
-      box-shadow: none;
-      border: none;
-      margin-bottom: 35px;
-  }
-  
-  .callback-form .contact-form textarea:focus {
-      outline: none;
-      box-shadow: none;
-      border: none;
-  }
-  
-  .callback-form .contact-form ::-webkit-input-placeholder { /* Edge */
-    color: #aaa;
-  }
-  .callback-form .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #aaa;
-  }
-  .callback-form .contact-form ::placeholder {
-    color: #aaa;
-  }
-  
-  .callback-form .contact-form button.border-button {
-      background-color: transparent;
-      color: #fff;
-      border: 2px solid #fff;
-      font-size: 13px;
-      text-transform: uppercase;
-      font-weight: 700;
-      padding: 10px 28px;
-      border-radius: 30px;
-      display: inline-block;
-      transition: all 0.3s;
-      outline: none;
-      box-shadow: none;
-      text-shadow: none;
-      cursor: pointer;
-  }
-  
-  .callback-form .contact-form button.border-button:hover {
-      background-color: #fff;
-      color: #a4c639;
-  }
-  
-  .contact-us .contact-form button.filled-button {
-      background-color: #a4c639;
-      color: #fff;
-      border: none;
-      font-size: 13px;
-      text-transform: uppercase;
-      font-weight: 700;
-      padding: 12px 30px;
-      border-radius: 30px;
-      display: inline-block;
-      transition: all 0.3s;
-      outline: none;
-      box-shadow: none;
-      text-shadow: none;
-      cursor: pointer;
-  }
-  
-  .contact-us .contact-form button.filled-button:hover {
-      background-color: #fff;
-      color: #a4c639;
-  }
   
   
   
@@ -1404,8 +1190,8 @@ body {
   }
   
   .partners {
-      margin-top: 140px;
-      background-color: #f7f7f7;
+      margin-top: 20px;
+      background-color: #ebebeb;
       padding: 60px 0px;
   }
   
